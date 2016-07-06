@@ -96,3 +96,15 @@ https://atom.io/packages/ex-mode
 
 Mapping jj to Command mode in Atom
 https://github.com/atom/vim-mode/issues/128
+
+To find and replace all occurrences of "rug" with "bug", enter:
+:%s/rug/bug/g
+
+And on current line only:
+:s/rug/bug/g
+
+Case insensitive:
+:%s/rug/bug/gi
+
+From line 3 to 7:
+:3,7s/rug/bug/g
