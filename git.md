@@ -38,3 +38,8 @@ Also try
 
 and
 `git log -p`
+
+
+## Pull a specific branch
+
+`git pull origin branch-i-want`
