@@ -43,3 +43,8 @@ and
 ## Pull a specific branch
 
 `git pull origin branch-i-want`
+
+## Push to a specific branch on the remote repo
+
+`git push origin <local-branch>:<remote-branch>`
+
