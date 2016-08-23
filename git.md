@@ -51,3 +51,17 @@ and
 ## Replace the url of a remote repo
 Assuming the name of the remote is "origin":
 `git remote set-url origin <new-url>`
+
+## Keep your fork synced with the original
+First, fork a project and clone your version to your local machine. Then add the original repo as an upstream remote:
+```
+git remote add upstream https://github.com/octocat/Spoon-Knife.git
+git remote -v # Confirm that it worked
+```
+
+When stuff changes on the original, fetch it:
+```
+git fetch upstream
+git checkout master
+git merge upstream/master
+```
