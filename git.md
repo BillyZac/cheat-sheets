@@ -48,3 +48,6 @@ and
 
 `git push origin <local-branch>:<remote-branch>`
 
+## Replace the url of a remote repo
+Assuming the name of the remote is "origin":
+`git remote set-url origin <new-url>`
