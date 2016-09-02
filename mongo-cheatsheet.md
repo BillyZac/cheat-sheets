@@ -23,3 +23,8 @@ db.cats.find().pretty()
 
 ## Find
 db.cats.find( { name: "Fritz" } )
+or
+db.cats.findOne({ "id" : "K-001" })
+
+## Delete a record
+db.cats.findOneAndDelete({ "id" : "K-001" })
