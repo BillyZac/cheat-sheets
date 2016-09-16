@@ -88,6 +88,7 @@ Quit without saving
 
 ## Resource
 http://www.openvim.com/tutorial.html
+http://stackoverflow.com/questions/1445992/vim-file-navigation#1446480
 
 Vim for Atom
 https://atom.io/packages/vim-mode
