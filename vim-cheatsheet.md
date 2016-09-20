@@ -18,10 +18,16 @@ Go to matching ( { [
 %
 
 Go to beginning of line
-0
+0 or |
+
+Go to beginning of line and switch to Insert mode
+I
 
 Go to end of line
 $
+
+Go to end of line and switch to Insert mode (Append)
+A
 
 Find next occurrence of word under the cursor
 *
@@ -64,6 +70,9 @@ dw
 
 Delete two words
 d2w
+
+Delete word and switch to insert mode
+ciw
 
 Delete a line
 dd
