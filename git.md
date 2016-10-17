@@ -65,3 +65,14 @@ git fetch upstream
 git checkout master
 git merge upstream/master
 ```
+
+## Roll back to a specific commit, create a new commit.
+This command creates a new commit that undoes the changes from a previous commit. This command adds new history to the project (it doesn't modify existing history).
+```
+git revert <commit>
+```
+
+## Roll back to a specific commit, changing history
+```
+git reset --hard <commit>
+```
