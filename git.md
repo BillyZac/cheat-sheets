@@ -76,3 +76,9 @@ git revert <commit>
 ```
 git reset --hard <commit>
 ```
+
+## Force push to a remote repository
+This overwrites history on the remote, so with care!
+```
+git push origin master -f
+```
