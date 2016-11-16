@@ -1,4 +1,4 @@
-# Unix
+# _nix
 
 ## Which process is listening on port 666
 Say you install a project, and then run something like `grunt serve` that gives you an error like this:
@@ -8,7 +8,7 @@ Fatal error: Port 666 is already in use by another process.
 
 You can use `lsof`, which shows which process is using that port
 ```
-lsof | grep :666
+lsof -i tcp:80
 ```
 
 This gives you
