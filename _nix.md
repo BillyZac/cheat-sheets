@@ -28,3 +28,9 @@ zacharysmith    75488   0.0  0.0  2432772    676 s006  S+   11:40AM   0:00.00 gr
 ```
 
 The answer is in the first line: `gulp`. (The second line just shows that grep is looking for this number, which we don't really care about.)
+
+You might want to know the parent process of a process:
+```
+ps -f | grep node
+```
+Look for PPID in the table. This is the process id of the parent.
