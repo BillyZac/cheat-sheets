@@ -44,6 +44,12 @@ and
 
 `git pull origin branch-i-want`
 
+This pulls the remote branch into your current local branch. You might actually want to do the following instead:
+
+## Create a new local branch based on a remote branch
+
+`git co -b forecast-end-date origin/forecast-end-date`
+
 ## Push to a specific branch on the remote repo
 
 `git push origin <local-branch>:<remote-branch>`
