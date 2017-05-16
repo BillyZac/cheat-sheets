@@ -34,3 +34,7 @@ You might want to know the parent process of a process:
 ps -f | grep node
 ```
 Look for PPID in the table. This is the process id of the parent.
+
+## Kill
+`kill 68445`
+And if that doesn't work `kill -9 68445`
